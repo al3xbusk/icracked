@@ -1,0 +1,59 @@
+/* app css stylesheet */
+body {
+	padding: 10px;
+}
+.phone {
+	padding: 20px 10px;
+	float: right;
+}
+.main	{
+	min-height: 550px;
+}
+.title h4 {
+	width: 350px;
+	margin: 20px auto;
+}
+.title h2 {
+	width: 600px;
+	margin: 0 auto;
+	font-size: 50px;
+}
+.devices {
+	width: 680px;
+	margin: 30px auto;
+}
+.device {
+	cursor: pointer;
+	display: inline-block;
+	height: 250px;
+	width: 160px;
+	text-align: center;
+	border: 3px solid #fff
+}
+.device:hover {
+	border: 3px solid #0C9EEF
+}
+.img-iphone {
+	background:url(../img/iphone.svg) no-repeat center center;
+	height:200px;
+	width:160px;
+}
+.img-ipad {
+	background:url(../img/ipad.svg) no-repeat center center;
+	height:200px;
+	width:160px;
+}
+.img-ipod {
+	background:url(../img/ipod.svg) no-repeat center center;
+	height:200px;
+	width:160px;
+}
+.img-samsung {
+	background:url(../img/samsung.svg) no-repeat center center;
+	height:200px;
+	width:160px;
+}
+.copyrights {
+	width: 240px;
+	margin: 0 auto;
+}
