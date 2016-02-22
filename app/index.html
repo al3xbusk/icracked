@@ -1,51 +1,39 @@
 <!doctype html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="icrackedApp">
 <head>
 	<meta charset="utf-8">
 	<title>My HTML File</title>
 	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
 	<link rel="stylesheet" href="css/app.css">
-	<script src="bower_components/angular/angular.js"></script>
+	
 </head>
 <body>
 	<header>
 		<div class="row">
 			<div class="col-md-12">
 				<div class="phone">1-877-700-0349</div>
-				<div class="logo"><a href="#"><img src="img/logo.svg" alt=""></a></div>
+				<div class="logo btn-bar"><a href="#"><img src="img/logo.svg" alt=""></a></div>
 			</div>
 		</div>
 	</header>
-	<section class="main">
-		<div class="container">
-			<div class="title">
-				<h4>Repair your Iphone, Ipad, Ipod, Samsung</h4>
-				<h2>First, Choose Your Device</h2>
-			</div>
-			<div class="devices">
-				<div class="device">
-					<div class="img-iphone"></div>
-					<h5>iPhone</h5>
-				</div>
-				<div class="device">
-					<div class="img-ipad"></div>
-					<h5>iPad</h5>
-				</div>
-				<div class="device">
-					<div class="img-ipod"></div>
-					<h5>iPod</h5>
-				</div>
-				<div class="device">
-					<div class="img-samsung"></div>
-					<h5>Samsung</h5>
-				</div>
-			</div>
-		</div>
-	</section>
+	<div class="p-bar-cont">
+		<div class="progress-bar" id="bar" p-bar></div>
+	</div>
+	<div ng-view></div>
 	<footer>
 		<div class="copyrights">
 			2015 iCracked, inc. All rights reserved
 		</div>
 	</footer>
+
+
+
+	<script src="//code.jquery.com/jquery-1.12.0.min.js"></script>
+	<script src="bower_components/angular/angular.min.js"></script>
+	<script src="bower_components/angular-route/angular-route.min.js"></script>
+	<script src="js/app.js"></script>
+	<script src="js/controllers.js"></script>
+	<!-- <script src="js/common.js"></script> -->
+	<script src="js/directives.js"></script>
 </body>
 </html>

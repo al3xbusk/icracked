@@ -1,0 +1,15 @@
+ <section ng-controller="iphoneCtrl" class="main">
+	<div class="container">
+		<div class="title">
+			<h2>What Network are you on?</h2>
+			<h4>Not sure which network are you on?</h4>
+		</div>
+		<div class="iphones">
+			<div class="iphone" ng-repeat="network in networks">
+				<a href="#/phones/iPhone/6s/space-grey/{{network}}">
+					<h5>{{network}}</h5> 
+				</a>
+			</div>
+		</div>
+	</div>
+</section>

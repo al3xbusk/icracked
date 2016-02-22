@@ -2,6 +2,12 @@
 body {
 	padding: 10px;
 }
+a {
+	cursor: pointer;
+}
+a:hover, a:active {
+	text-decoration: none;
+}
 .phone {
 	padding: 20px 10px;
 	float: right;
@@ -9,11 +15,55 @@ body {
 .main	{
 	min-height: 550px;
 }
+.links {
+	display: inline-block;
+	vertical-align: middle;
+}
+.p-bar-cont {
+	overflow: hidden;
+	max-width: 100%;	
+}
+.progress-bar {
+	height:10px;
+	width:0%;
+	background:#0C9EEF;
+	transition: width 1s;
+	position:relative;
+	border-left: 2px solid #0c9eef;
+}
+.status-bar {
+	background-color: #F0F4F9;
+	height: 100px;
+	margin: 20px 0 15px;
+	position: relative;
+	padding: 14px;
+}
+.back-btn {
+	background: url(../img/left.svg) no-repeat center center;
+	height: 28px;
+	width: 34px;
+	margin: 0 0;
+}
+.device-name {
+	margin: 0 0 0 15px;;
+	color: #5B6675;
+}
+.device-name h5 {
+	font-size: 27px;
+}
+.device-name h6 {
+	font-size: 10px;
+}
+.title {
+	margin:0 0 30px;
+}
 .title h4 {
 	width: 350px;
 	margin: 20px auto;
+	text-align: center;
 }
 .title h2 {
+	text-align: center;
 	width: 600px;
 	margin: 0 auto;
 	font-size: 50px;
@@ -28,10 +78,10 @@ body {
 	height: 250px;
 	width: 160px;
 	text-align: center;
-	border: 3px solid #fff
+	border: 3px solid #fff;
 }
 .device:hover {
-	border: 3px solid #0C9EEF
+	border: 3px solid #0C9EEF;
 }
 .img-iphone {
 	background:url(../img/iphone.svg) no-repeat center center;
@@ -56,4 +106,35 @@ body {
 .copyrights {
 	width: 240px;
 	margin: 0 auto;
+}
+.iphones {
+	width: 780px;
+	margin: 30px auto;
+}
+.iphone {
+	display: inline-block;
+	width: 185px;
+	height: 107px;
+	text-align: center;
+	border: 3px solid #CDD7E4;
+	margin: 5px;
+}
+.iphone:hover {
+	border: 3px solid #0C9EEF
+}
+.iphone h5 {
+	width: 180px;
+	height: 101px;
+	font-size: 23px;
+	padding: 37px 0 0;
+	margin: 0px;
+}
+.form-cont{
+	width: 400px;
+	margin: 0 auto;
+}
+.form-cont input {
+	display: block;
+	width: 300px;
+	margin: 0 auto 10px;
 }
