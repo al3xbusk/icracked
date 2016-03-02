@@ -13,33 +13,42 @@
 		<a href="#/phones/iPhone" class="links">
 			<div class="device-name">
 				<h6>MODEL</h6>
-				<h5>6s</h5>
+				<h5>3</h5>
 			</div>
 		</a>
-		<a href="#/phones/iPhone/6s" class="links">
+		<a href="#/phones/iPhone/3" class="links">
 			<div class="device-name">
 				<h6>COLOR</h6>
-				<h5>Gold</h5>
+				<h5>White</h5>
 			</div>
 		</a>
-		<a href="#/phones/iPhone/6s/gold" class="links">
+		<a href="#/phones/iPhone/3/white" class="links">
 			<div class="device-name">
 				<h6>NETWORK</h6>
-				<h5>AT&T</h5>
+				<h5>T-mobile</h5>
+			</div>
+		</a>
+		<a href="#/phones/iPhone/3/white/t-mobile" class="links">
+			<div class="device-name">
+				<h6>ISSUE</h6>
+				<h5>W'ont turn on</h5>
 			</div>
 		</a>
 	</div>
 	<div class="container">
 		<div class="title">
-			<h2>And, what is the issue?</h2>
-			
+			<h2>Almost there!</h2>
+			<h4>Let us know where we should send your qoute.</h4>
 		</div>
-		<div class="iphones">
-			<div class="iphone" ng-repeat="problem in problems">
-				<a href="#/phones/iPhone/6s/gold/at&t/{{problem.id}}">
-					<h5>{{problem.issue}}</h5> 
+		<div class="form-cont">
+			<form action="">
+				<input type="name" placeholder="Name">
+				<input type="email" placeholder="Email">
+				<input type="tel" placeholder="Phone Numer">
+				<a href="#">
+					<input type="submit" value="Send">
 				</a>
-			</div>
+			</form>
 		</div>
 	</div>
 </section>
