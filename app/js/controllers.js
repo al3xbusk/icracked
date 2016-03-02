@@ -64,6 +64,19 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 		]
 	},
 	{
+		'model': '4',
+		'colors': [
+		{
+			'color': 'black',
+			'id': 'black'
+		},
+		{
+			'color':'white',
+			'id': 'white'
+		}
+		]
+	},
+	{
 		'model': '4s',
 		'colors': [
 		{

@@ -1,4 +1,28 @@
- <section ng-controller="iphoneCtrl" class="main">
+<section ng-controller="iphoneCtrl" class="main">
+	<div class="status-bar">
+	<a class="links" onclick="javascript:history.back();">
+			<div class="back-btn">
+			</div>
+		</a>
+		<a href="#/phones/"class="links">
+			<div class="device-name">
+				<h6>DEVICE</h6>
+				<h5>iPhone</h5>
+			</div>
+		</a>
+		<a href="#/phones/iPhone" class="links">
+			<div class="device-name">
+				<h6>MODEL</h6>
+				<h5>5</h5>
+			</div>
+		</a>
+		<a href="#/phones/iPhone/5" class="links">
+			<div class="device-name">
+				<h6>COLOR</h6>
+				<h5>Black</h5>
+			</div>
+		</a>
+	</div>
 	<div class="container">
 		<div class="title">
 			<h2>What Network are you on?</h2>
@@ -6,7 +30,7 @@
 		</div>
 		<div class="iphones">
 			<div class="iphone" ng-repeat="network in networks">
-				<a href="#/phones/iPhone/6s/silver/{{network}}">
+				<a href="#/phones/iPhone/5/black/{{network}}">
 					<h5>{{network}}</h5> 
 				</a>
 			</div>

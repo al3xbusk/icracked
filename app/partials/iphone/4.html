@@ -1,0 +1,32 @@
+<section ng-controller="iphoneCtrl">
+  <div class="status-bar">
+  <a class="links" onclick="javascript:history.back();">
+      <div class="back-btn">
+      </div>
+    </a>
+    <a href="#/phones"class="links">
+      <div class="device-name">
+        <h6>DEVICE</h6>
+        <h5>iPhone</h5>
+      </div>
+    </a>
+    <a href="#/phones/iPhone" class="links">
+      <div class="device-name">
+        <h6>MODEL</h6>
+        <h5>4</h5>
+      </div>
+    </a>
+  </div>
+  <div class="container">
+    <div class="title">
+      <h2>Excellent, what Color is it?</h2>
+    </div>
+    <div class="iphones">
+      <div class="iphone" ng-repeat="tech in iphones[2].colors">
+        <a href="#/phones/iPhone/4/{{tech.id}}" btn-bar>
+          <h5>{{tech.color}}</h5> 
+        </a>
+      </div>
+    </div>
+  </div>
+</section>

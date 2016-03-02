@@ -36,6 +36,10 @@ icrackedApp.config(['$routeProvider',
 			templateUrl: 'partials/iphone/5.html',
 			controller: 'iphoneCtrl'
 		}).
+		when('/phones/iPhone/4', {
+			templateUrl: 'partials/iphone/4.html',
+			controller: 'iphoneCtrl'
+		}).
 		when('/phones/iPhone/4s', {
 			templateUrl: 'partials/iphone/4s.html',
 			controller: 'iphoneCtrl'
@@ -44,6 +48,8 @@ icrackedApp.config(['$routeProvider',
 			templateUrl: 'partials/iphone/3.html',
 			controller: 'iphoneCtrl'
 		}).
+
+		//-----------------------------
 		//=-=-=-=-iPhone 6s -=-=-=-=-=-
 		//iphone 6s colors
 		when('/phones/iPhone/6s/gold', {
@@ -405,6 +411,573 @@ icrackedApp.config(['$routeProvider',
 		}).
 		when('/phones/iPhone/6s/space-grey/verizon/wont-turn-on', {
 			templateUrl: 'partials/iphone/6s-colors/6s-space-grey-network/6s-space-grey-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+
+		//-----------------------------
+		//=-=-=-=-iPhone 5 -=-=-=-=-=-
+		//iphone 5 colors
+		when('/phones/iPhone/5/black', {
+			templateUrl: 'partials/iphone/5-colors/black.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white', {
+			templateUrl: 'partials/iphone/5-colors/white.html',
+			controller: 'iphoneCtrl'
+		}).
+		//-=-=-=-=-=-iPhone 5 colors-=-=-=-=-=
+		//iphone 5 black network
+		when('/phones/iPhone/5/black/at&t', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/sprint', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/t-mobile', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/verizon', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 5 white network
+		when('/phones/iPhone/5/white/at&t', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/sprint', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/t-mobile', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/verizon', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+
+
+		//=-=-=-=-=-=-=iphone 5 black-=-=-=-=-=--=
+		//iphone 5 black at&t problem
+		when('/phones/iPhone/5/black/at&t/battery', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/at&t/water-damage', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 5 black sprint problem
+		when('/phones/iPhone/5/black/sprint/battery', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/sprint/water-damage', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 5 black t-mobile problem
+		when('/phones/iPhone/5/black/t-mobile/battery', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 5 black verizon problem
+		when('/phones/iPhone/5/black/verizon/battery', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/verizon/water-damage', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/black/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/5-colors/5-black-network/5-black-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+
+
+		//=-=-=-=-=-=-=iphone 5 white-=-=-=-=-=--=
+		//iphone 5 white at&t problem
+		when('/phones/iPhone/5/white/at&t/battery', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/at&t/water-damage', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 5 white sprint problem
+		when('/phones/iPhone/5/white/sprint/battery', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/sprint/water-damage', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 5 white t-mobile problem
+		when('/phones/iPhone/5/white/t-mobile/battery', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 5 white verizon problem
+		when('/phones/iPhone/5/white/verizon/battery', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/verizon/water-damage', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/5/white/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/5-colors/5-white-network/5-white-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+
+		//-----------------------------
+		//=-=-=-=-iPhone 4 -=-=-=-=-=-
+		//iphone 4 colors
+		when('/phones/iPhone/4/black', {
+			templateUrl: 'partials/iphone/4-colors/black.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white', {
+			templateUrl: 'partials/iphone/4-colors/white.html',
+			controller: 'iphoneCtrl'
+		}).
+		//-=-=-=-=-=-iPhone 4 colors-=-=-=-=-=
+		//iphone 4 black network
+		when('/phones/iPhone/4/black/at&t', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/sprint', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/t-mobile', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/verizon', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4 white network
+		when('/phones/iPhone/4/white/at&t', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/sprint', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/t-mobile', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/verizon', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+
+		
+		//=-=-=-=-=-=-=iphone 4 black-=-=-=-=-=--=
+		//iphone 4 black at&t problem
+		when('/phones/iPhone/4/black/at&t/battery', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/at&t/water-damage', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4 black sprint problem
+		when('/phones/iPhone/4/black/sprint/battery', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/sprint/water-damage', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4 black t-mobile problem
+		when('/phones/iPhone/4/black/t-mobile/battery', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4 black verizon problem
+		when('/phones/iPhone/4/black/verizon/battery', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/verizon/water-damage', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/black/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/4-colors/4-black-network/4-black-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+
+
+		//=-=-=-=-=-=-=iphone 4 white-=-=-=-=-=--=
+		//iphone 4 white at&t problem
+		when('/phones/iPhone/4/white/at&t/battery', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/at&t/water-damage', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4 white sprint problem
+		when('/phones/iPhone/4/white/sprint/battery', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/sprint/water-damage', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4 white t-mobile problem
+		when('/phones/iPhone/4/white/t-mobile/battery', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4 white verizon problem
+		when('/phones/iPhone/4/white/verizon/battery', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/verizon/water-damage', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4/white/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/4-colors/4-white-network/4-white-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+
+		//-----------------------------
+		//=-=-=-=-iPhone 4s -=-=-=-=-=-
+		//iphone 4s colors
+		when('/phones/iPhone/4s/black', {
+			templateUrl: 'partials/iphone/4s-colors/black.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white', {
+			templateUrl: 'partials/iphone/4s-colors/white.html',
+			controller: 'iphoneCtrl'
+		}).
+		//-=-=-=-=-=-iPhone 4s colors-=-=-=-=-=
+		//iphone 4s black network
+		when('/phones/iPhone/4s/black/at&t', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/sprint', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/t-mobile', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/verizon', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4s white network
+		when('/phones/iPhone/4s/white/at&t', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/sprint', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/t-mobile', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/verizon', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+
+		
+		//=-=-=-=-=-=-=iphone 4s black-=-=-=-=-=--=
+		//iphone 4s black at&t problem
+		when('/phones/iPhone/4s/black/at&t/battery', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/at&t/water-damage', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4s black sprint problem
+		when('/phones/iPhone/4s/black/sprint/battery', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/sprint/water-damage', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4s black t-mobile problem
+		when('/phones/iPhone/4s/black/t-mobile/battery', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4s black verizon problem
+		when('/phones/iPhone/4s/black/verizon/battery', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/verizon/water-damage', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/black/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/4s-colors/4s-black-network/4s-black-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+
+
+		//=-=-=-=-=-=-=iphone 4s white-=-=-=-=-=--=
+		//iphone 4s white at&t problem
+		when('/phones/iPhone/4s/white/at&t/battery', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/at&t/water-damage', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4s white sprint problem
+		when('/phones/iPhone/4s/white/sprint/battery', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/sprint/water-damage', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4s white t-mobile problem
+		when('/phones/iPhone/4s/white/t-mobile/battery', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 4s white verizon problem
+		when('/phones/iPhone/4s/white/verizon/battery', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/verizon/water-damage', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/4s/white/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/4s-colors/4s-white-network/4s-white-network-verizon/wont-turn-on.html',
 			controller: 'iphoneCtrl'
 		}).
 		otherwise({
