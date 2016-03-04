@@ -69,6 +69,24 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 		]
 	},
 	{
+		'model': '5s',
+		'colors': 
+		[
+		{
+			'color': 'Gold',
+			'id': 'gold'
+		},
+		{
+			'color':'Space Grey',
+			'id': 'space-grey'
+		},
+		{
+			'color': 'Silver',
+			'id': 'silver'
+		}
+		]
+	},
+	{
 		'model': '5',
 		'colors': [
 		{
@@ -122,10 +140,10 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 	}
 	];
 	$scope.networks = [
-	'at&t',
-	'verizon',
-	'sprint',
-	't-mobile'
+	'At&t',
+	'Verizon',
+	'Sprint',
+	'T-mobile'
 	];
 	$scope.problems = [
 	{

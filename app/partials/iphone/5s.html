@@ -1,6 +1,6 @@
 <section ng-controller="iphoneCtrl">
   <div class="status-bar">
-  <a class="links" onclick="javascript:history.back();">
+    <a class="links" onclick="javascript:history.back();">
       <div class="back-btn">
       </div>
     </a>
@@ -13,7 +13,7 @@
     <a href="#/phones/iPhone" class="links">
       <div class="device-name">
         <h6>MODEL</h6>
-        <h5>5</h5>
+        <h5>5s</h5>
       </div>
     </a>
   </div>
@@ -22,10 +22,12 @@
       <h2>Excellent, what Color is it?</h2>
     </div>
     <div class="iphones">
-      <div class="iphone" ng-repeat="tech in iphones[3].colors">
-        <a href="#/phones/iPhone/5/{{tech.id}}" btn-bar>
-          <h5>{{tech.color}}</h5> 
-        </a>
+    <div class="less-than-4">
+        <div class="iphone" ng-repeat="tech in iphones[2].colors">
+          <a href="#/phones/iPhone/5s/{{tech.id}}" btn-bar>
+            <h5>{{tech.color}}</h5> 
+          </a>
+        </div>
       </div>
     </div>
   </div>
