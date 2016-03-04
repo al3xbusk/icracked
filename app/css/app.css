@@ -1,6 +1,10 @@
 /* app css stylesheet */
 body {
-	padding: 10px;
+	padding: 10px 0;
+	overflow: hidden;
+}
+header {
+	padding: 5px 15px;
 }
 a {
 	cursor: pointer;
@@ -110,6 +114,10 @@ a:hover, a:active {
 .iphones {
 	width: 780px;
 	margin: 30px auto;
+}
+.less-than-4 {
+	width: 600px;
+	margin: 0 auto;
 }
 .iphone {
 	display: inline-block;

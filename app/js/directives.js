@@ -15,3 +15,15 @@ icrackedApp.directive("btnBar",function(){
 		}
 	}
 });
+icrackedApp.directive("btnTest",function(){
+	return {
+		scope:{},
+		restrict: "A",
+		link: function(scope,elem,attrs) {
+			var title = angular.element(document.querySelector('.copyrights'));
+			$(elem).click(function() {
+				title.css({'color':'#ccc'})
+			})
+		}
+	}
+});

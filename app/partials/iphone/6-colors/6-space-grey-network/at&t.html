@@ -1,0 +1,45 @@
+<section ng-controller="iphoneCtrl" class="main">
+	<div class="status-bar">
+		<a class="links" onclick="javascript:history.back();">
+			<div class="back-btn">
+			</div>
+		</a>
+		<a href="#/phones/"class="links">
+			<div class="device-name">
+				<h6>DEVICE</h6>
+				<h5>iPhone</h5>
+			</div>
+		</a>
+		<a href="#/phones/iPhone" class="links">
+			<div class="device-name">
+				<h6>MODEL</h6>
+				<h5>6</h5>
+			</div>
+		</a>
+		<a href="#/phones/iPhone/6" class="links">
+			<div class="device-name">
+				<h6>COLOR</h6>
+				<h5>Space Grey</h5>
+			</div>
+		</a>
+		<a href="#/phones/iPhone/6/space-grey" class="links">
+			<div class="device-name">
+				<h6>NETWORK</h6>
+				<h5>AT&T</h5>
+			</div>
+		</a>
+	</div>
+	<div class="container">
+		<div class="title">
+			<h2>And, what is the issue?</h2>
+			
+		</div>
+		<div class="iphones">
+			<div class="iphone" ng-repeat="problem in problems">
+				<a href="#/phones/iPhone/6/space-grey/at&t/{{problem.id}}">
+					<h5>{{problem.issue}}</h5> 
+				</a>
+			</div>
+		</div>
+	</div>
+</section>

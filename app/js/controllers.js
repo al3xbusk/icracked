@@ -1,7 +1,7 @@
 'use strict';
 
 /* Controllers */
-icrackedApp.controller('icrackedCtrl', ['$scope', '$location',	function($scope, $location) {
+var icracked = icrackedApp.controller('icrackedCtrl', ['$scope', '$location',	function($scope, $location) {
 	$scope.devices = 
 	[
 	{
@@ -51,6 +51,24 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 		]
 	},
 	{
+		'model': '6',
+		'colors': 
+		[
+		{
+			'color': 'Gold',
+			'id': 'gold'
+		},
+		{
+			'color':'Space Grey',
+			'id': 'space-grey'
+		},
+		{
+			'color': 'Silver',
+			'id': 'silver'
+		}
+		]
+	},
+	{
 		'model': '5',
 		'colors': [
 		{
@@ -64,7 +82,7 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 		]
 	},
 	{
-		'model': '4',
+		'model': '4s',
 		'colors': [
 		{
 			'color': 'black',
@@ -77,7 +95,7 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 		]
 	},
 	{
-		'model': '4s',
+		'model': '4',
 		'colors': [
 		{
 			'color': 'black',
