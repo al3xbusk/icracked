@@ -28,12 +28,20 @@ icrackedApp.config(['$routeProvider',
 		}).
 		//=-=-=-=-=-iPhones-=-=-=-=-=-
 		//iphone models
+		when('/phones/iPhone/6s-plus', {
+			templateUrl: 'partials/iphone/6s-plus.html',
+			controller: 'iphoneCtrl'
+		}).
 		when('/phones/iPhone/6s', {
 			templateUrl: 'partials/iphone/6s.html',
 			controller: 'iphoneCtrl'
 		}).
 		when('/phones/iPhone/6', {
 			templateUrl: 'partials/iphone/6.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus', {
+			templateUrl: 'partials/iphone/6-plus.html',
 			controller: 'iphoneCtrl'
 		}).
 		when('/phones/iPhone/5s', {
@@ -58,6 +66,373 @@ icrackedApp.config(['$routeProvider',
 		}).
 
 		//-----------------------------
+
+
+		//=-=-=-=-iPhone 6s-plus -=-=-=-=-=-
+		//iphone 6s-plus colors
+		when('/phones/iPhone/6s-plus/gold', {
+			templateUrl: 'partials/iphone/6s-plus-colors/gold.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey', {
+			templateUrl: 'partials/iphone/6s-plus-colors/space-grey.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver', {
+			templateUrl: 'partials/iphone/6s-plus-colors/silver.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold', {
+			templateUrl: 'partials/iphone/6s-plus-colors/rose-gold.html',
+			controller: 'iphoneCtrl'
+		}).
+		//-=-=-=-=-=-iPhone 6s-plus colors-=-=-=-=-=
+		//iphone 6s-plus gold network
+		when('/phones/iPhone/6s-plus/gold/at&t', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/sprint', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/t-mobile', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/verizon', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus rose gold network
+		when('/phones/iPhone/6s-plus/rose-gold/at&t', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/sprint', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/t-mobile', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/verizon', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus silver network
+		when('/phones/iPhone/6s-plus/silver/at&t', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/sprint', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/t-mobile', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/verizon', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus space grey network
+		when('/phones/iPhone/6s-plus/space-grey/at&t', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/sprint', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/t-mobile', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/verizon', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+		//=-=-=-=-=-=-=iphone 6s-plus gold-=-=-=-=-=--=
+		//iphone 6s-plus gold at&t problem
+		when('/phones/iPhone/6s-plus/gold/at&t/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/at&t/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus gold sprint problem
+		when('/phones/iPhone/6s-plus/gold/sprint/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/sprint/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus gold t-mobile problem
+		when('/phones/iPhone/6s-plus/gold/t-mobile/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus gold verizon problem
+		when('/phones/iPhone/6s-plus/gold/verizon/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/verizon/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/gold/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-gold-network/6s-plus-gold-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//-=-=-=-=-=-=-iPhone 6s-plus rose gold -=-=-=-=-=-=
+		//iphone 6s-plus rose gold at&t problem
+		when('/phones/iPhone/6s-plus/rose-gold/at&t/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/at&t/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus rose gold sprint problem
+		when('/phones/iPhone/6s-plus/rose-gold/sprint/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/sprint/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus rose gold t-mobile problem
+		when('/phones/iPhone/6s-plus/rose-gold/t-mobile/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus rose gold verizon problem
+		when('/phones/iPhone/6s-plus/rose-gold/verizon/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/verizon/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/rose-gold/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-rose-gold-network/6s-plus-rose-gold-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//-=-=-=-=-=-=-iPhone 6s-plus silver -=-=-=-=-=-=
+		//iphone 6s-plus silver at&t problem
+		when('/phones/iPhone/6s-plus/silver/at&t/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/at&t/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus silver sprint problem
+		when('/phones/iPhone/6s-plus/silver/sprint/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/sprint/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus silver t-mobile problem
+		when('/phones/iPhone/6s-plus/silver/t-mobile/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus silver verizon problem
+		when('/phones/iPhone/6s-plus/silver/verizon/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/verizon/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/silver/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-silver-network/6s-plus-silver-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//-=-=-=-=-=-=-iPhone 6s-plus space grey -=-=-=-=-=-=
+		//iphone 6s-plus space grey at&t problem
+		when('/phones/iPhone/6s-plus/space-grey/at&t/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/at&t/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus space-grey sprint problem
+		when('/phones/iPhone/6s-plus/space-grey/sprint/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/sprint/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus space-grey t-mobile problem
+		when('/phones/iPhone/6s-plus/space-grey/t-mobile/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6s-plus space-grey verizon problem
+		when('/phones/iPhone/6s-plus/space-grey/verizon/battery', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/verizon/water-damage', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6s-plus/space-grey/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/6s-plus-colors/6s-plus-space-grey-network/6s-plus-space-grey-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+
+
 		//=-=-=-=-iPhone 6s -=-=-=-=-=-
 		//iphone 6s colors
 		when('/phones/iPhone/6s/gold', {
@@ -423,6 +798,283 @@ icrackedApp.config(['$routeProvider',
 		}).
 
 
+		//=-=-=-=-iPhone 6-plus -=-=-=-=-=-
+		//iphone 6-plus colors
+		when('/phones/iPhone/6-plus/gold', {
+			templateUrl: 'partials/iphone/6-plus-colors/gold.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey', {
+			templateUrl: 'partials/iphone/6-plus-colors/space-grey.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver', {
+			templateUrl: 'partials/iphone/6-plus-colors/silver.html',
+			controller: 'iphoneCtrl'
+		}).
+
+		//-=-=-=-=-=-iPhone 6-plus colors-=-=-=-=-=
+		//iphone 6-plus gold network
+		when('/phones/iPhone/6-plus/gold/at&t', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/sprint', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/t-mobile', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/verizon', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+
+		//iphone 6-plus silver network
+		when('/phones/iPhone/6-plus/silver/at&t', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/sprint', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/t-mobile', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/verizon', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6-plus space grey network
+		when('/phones/iPhone/6-plus/space-grey/at&t', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/at&t.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/sprint', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/sprint.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/t-mobile', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/t-mobile.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/verizon', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/verizon.html',
+			controller: 'iphoneCtrl'
+		}).
+		//=-=-=-=-=-=-=iphone 6-plus gold-=-=-=-=-=--=
+		//iphone 6-plus gold at&t problem
+		when('/phones/iPhone/6-plus/gold/at&t/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/at&t/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6-plus gold sprint problem
+		when('/phones/iPhone/6-plus/gold/sprint/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/sprint/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6-plus gold t-mobile problem
+		when('/phones/iPhone/6-plus/gold/t-mobile/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6-plus gold verizon problem
+		when('/phones/iPhone/6-plus/gold/verizon/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/verizon/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/gold/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-gold-network/6-plus-gold-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		
+		//-=-=-=-=-=-=-iPhone 6-plus silver -=-=-=-=-=-=
+		//iphone 6-plus silver at&t problem
+		when('/phones/iPhone/6-plus/silver/at&t/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/at&t/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6-plus silver sprint problem
+		when('/phones/iPhone/6-plus/silver/sprint/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/sprint/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6-plus silver t-mobile problem
+		when('/phones/iPhone/6-plus/silver/t-mobile/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6-plus silver verizon problem
+		when('/phones/iPhone/6-plus/silver/verizon/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/verizon/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/silver/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-silver-network/6-plus-silver-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//-=-=-=-=-=-=-iPhone 6-plus space grey -=-=-=-=-=-=
+		//iphone 6-plus space grey at&t problem
+		when('/phones/iPhone/6-plus/space-grey/at&t/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-at-and-t/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/at&t/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-at-and-t/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/at&t/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-at-and-t/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/at&t/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-at-and-t/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6-plus space-grey sprint problem
+		when('/phones/iPhone/6-plus/space-grey/sprint/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-sprint/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/sprint/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-sprint/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/sprint/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-sprint/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/sprint/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-sprint/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6-plus space-grey t-mobile problem
+		when('/phones/iPhone/6-plus/space-grey/t-mobile/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-t-mobile/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/t-mobile/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-t-mobile/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/t-mobile/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-t-mobile/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/t-mobile/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-t-mobile/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+		//iphone 6-plus space-grey verizon problem
+		when('/phones/iPhone/6-plus/space-grey/verizon/battery', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-verizon/battery.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/verizon/broken-screen', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-verizon/broken-screen.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/verizon/water-damage', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-verizon/water-damage.html',
+			controller: 'iphoneCtrl'
+		}).
+		when('/phones/iPhone/6-plus/space-grey/verizon/wont-turn-on', {
+			templateUrl: 'partials/iphone/6-plus-colors/6-plus-space-grey-network/6-plus-space-grey-network-verizon/wont-turn-on.html',
+			controller: 'iphoneCtrl'
+		}).
+
 
 		//=-=-=-=-iPhone 6 -=-=-=-=-=-
 		//iphone 6 colors
@@ -701,7 +1353,7 @@ icrackedApp.config(['$routeProvider',
 			controller: 'iphoneCtrl'
 		}).
 
-
+		//-------------------------------
 		//=-=-=-=-iPhone 5s -=-=-=-=-=-
 		//iphone 5s colors
 		when('/phones/iPhone/5s/gold', {

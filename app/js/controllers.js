@@ -29,7 +29,8 @@ var icracked = icrackedApp.controller('icrackedCtrl', ['$scope', '$location',	fu
 icrackedApp.controller('iphoneCtrl', function($scope){
 	$scope.iphones = [
 	{
-		'model': '6s',
+		'model': '6s plus',
+		'id': '6s-plus',
 		'colors': 
 		[
 		{
@@ -51,7 +52,50 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 		]
 	},
 	{
+		'model': '6s',
+		'id': '6s',
+		'colors': 
+		[
+		{
+			'color': 'Gold',
+			'id': 'gold'
+		},
+		{
+			'color':'Space Grey',
+			'id': 'space-grey'
+		},
+		{
+			'color': 'Silver',
+			'id': 'silver'
+		},
+		{
+			'color':'Rose Gold',
+			'id': 'rose-gold'
+		}
+		]
+	},
+	{
+		'model': '6 plus',
+		'id': '6-plus',
+		'colors': 
+		[
+		{
+			'color': 'Gold',
+			'id': 'gold'
+		},
+		{
+			'color':'Space Grey',
+			'id': 'space-grey'
+		},
+		{
+			'color': 'Silver',
+			'id': 'silver'
+		}
+		]
+	},
+	{
 		'model': '6',
+		'id': '6',
 		'colors': 
 		[
 		{
@@ -70,6 +114,7 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 	},
 	{
 		'model': '5s',
+		'id': '5s',
 		'colors': 
 		[
 		{
@@ -88,6 +133,7 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 	},
 	{
 		'model': '5',
+		'id': '5',
 		'colors': [
 		{
 			'color': 'black',
@@ -101,6 +147,7 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 	},
 	{
 		'model': '4s',
+		'id': '4s',
 		'colors': [
 		{
 			'color': 'black',
@@ -114,6 +161,7 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 	},
 	{
 		'model': '4',
+		'id': '4',
 		'colors': [
 		{
 			'color': 'black',
@@ -127,6 +175,7 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 	},
 	{
 		'model': '3',
+		'id': '3',
 		'colors' : [
 		{
 			'color': 'black',
@@ -140,10 +189,10 @@ icrackedApp.controller('iphoneCtrl', function($scope){
 	}
 	];
 	$scope.networks = [
-	'At&t',
-	'Verizon',
-	'Sprint',
-	'T-mobile'
+	'at&t',
+	'verizon',
+	'sprint',
+	't-mobile'
 	];
 	$scope.problems = [
 	{
