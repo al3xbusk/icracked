@@ -38,7 +38,7 @@ a:hover, a:active {
 .status-bar {
 	background-color: #F0F4F9;
 	height: 100px;
-	margin: 20px 0 15px;
+	margin: 0 0 15px;
 	position: relative;
 	padding: 14px;
 }
@@ -59,7 +59,7 @@ a:hover, a:active {
 	font-size: 10px;
 }
 .title {
-	margin:0 0 30px;
+	margin:0 0 20px;
 }
 .title h4 {
 	width: 350px;
