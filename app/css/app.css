@@ -33,7 +33,7 @@ a:hover, a:active {
 	background:#0C9EEF;
 	transition: width 1s;
 	position:relative;
-	border-left: 2px solid #0c9eef;
+	/* border-left: 2px solid #0c9eef; */
 }
 .status-bar {
 	background-color: #F0F4F9;
