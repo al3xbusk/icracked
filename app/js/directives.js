@@ -26,7 +26,7 @@ icrackedApp.directive("btnBar10",function(){
 		link: function(scope,elem,attrs) {
 			var bar = angular.element(document.querySelector('#bar'));
 			$(elem).add(function() {
-				var b1=10;
+				var b1=20;
 				bar.css({'width':b1+'%'})
 			})
 			$(elem).click(function() {
@@ -43,7 +43,7 @@ icrackedApp.directive("btnBar20",function(){
 		link: function(scope,elem,attrs) {
 			var bar = angular.element(document.querySelector('#bar'));
 			$(elem).add(function() {
-				var b1=20;
+				var b1=40;
 				bar.css({'width':b1+'%'})
 			})
 			$(elem).click(function() {
@@ -60,7 +60,24 @@ icrackedApp.directive("btnBar30",function(){
 		link: function(scope,elem,attrs) {
 			var bar = angular.element(document.querySelector('#bar'));
 			$(elem).add(function() {
-				var b1=30;
+				var b1=60;
+				bar.css({'width':b1+'%'})
+			})
+			$(elem).click(function() {
+				b1+=10;
+				bar.css({'width':b1+'%'})
+			})
+		}
+	}
+});
+icrackedApp.directive("btnBar40",function(){
+	return {
+		scope:{},
+		restrict: "A",
+		link: function(scope,elem,attrs) {
+			var bar = angular.element(document.querySelector('#bar'));
+			$(elem).add(function() {
+				var b1=80;
 				bar.css({'width':b1+'%'})
 			})
 			$(elem).click(function() {

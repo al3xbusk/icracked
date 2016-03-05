@@ -28,10 +28,10 @@ a:hover, a:active {
 	max-width: 100%;	
 }
 .progress-bar {
-	height:10px;
+	height:7px;
 	width:0%;
 	background:#0C9EEF;
-	transition: width 1s;
+	transition: width 500ms;
 	position:relative;
 	/* border-left: 2px solid #0c9eef; */
 }
